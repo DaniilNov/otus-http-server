@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dca1fd5c-f476-418f-9be5-8200ce8c69c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/AnotherHelloWorldRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/CalculatorRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/DefaultInternalServerErrorRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/DefaultNotFoundRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/HelloWorldRequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/RequestProcessor.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2jp0fWy7kGwsVLHZ4PXiNURjwy8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Maven.otus-http-server [clean,package].executor": "Run",
+    "Maven.otus-http-server [compile].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/xa86/IdeaProjects/learning-project/otus-http-server/src/main/java/ru/otus/java/basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic" />
+      <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic\processors" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.otus.java.basic.Application" />
+      <module name="otus-http-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.otus.java.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dca1fd5c-f476-418f-9be5-8200ce8c69c7" name="Changes" comment="" />
+      <created>1722068816109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722068816109</updated>
+      <workItem from="1722068817273" duration="1415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="7f2c34">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
+                </list>
+              </option>
+              <option name="id" value="7f2c34" />
+              <option name="initiateTms" value="1722069539050" />
+              <option name="request" value=" На русском" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Ошибка `Could not find or load main class ru.otus.java.basic.Application` обычно указывает на то, что среда выполнения Java не может найти класс `Application` в указанном пакете. Это может быть вызвано несколькими причинами, такими как неправильные настройки classpath, неверные объявления пакетов или проблемы с скомпилированными классами.&#10;&#10;Вот несколько шагов для устранения и решения этой проблемы:&#10;&#10;1. **Проверьте объявление пакета:**&#10;   Убедитесь, что объявление пакета в начале вашего файла `Application.java` соответствует структуре каталогов. Оно должно быть таким:&#10;   ```java&#10;   package ru.otus.java.basic;&#10;   ```&#10;&#10;2. **Проверьте структуру каталогов:**&#10;   Убедитесь, что структура каталогов соответствует объявлению пакета. Файл `Application.java` должен находиться в:&#10;   ```&#10;   src/main/java/ru/otus/java/basic/Application.java&#10;   ```&#10;&#10;3. **Скомпилируйте классы:**&#10;   Убедитесь, что все ваши Java-файлы правильно скомпилированы. Вы можете скомпилировать их с помощью команды `javac`:&#10;   ```sh&#10;   javac -d out src/main/java/ru/otus/java/basic/*.java&#10;   ```&#10;   Эта команда компилирует все Java-файлы в пакете `ru.otus.java.basic` и помещает скомпилированные классы в каталог `out`.&#10;&#10;4. **Запустите приложение:**&#10;   Убедитесь, что вы запускаете приложение с правильным classpath. Вы можете запустить класс `Application` с помощью команды `java`:&#10;   ```sh&#10;   java -cp out ru.otus.java.basic.Application&#10;   ```&#10;&#10;5. **Проверьте наличие ошибок компиляции:**&#10;   Убедитесь, что в вашем коде нет ошибок компиляции. Любые ошибки компиляции могут помешать созданию файлов классов.&#10;&#10;6. **Конфигурация IDE:**&#10;   Если вы используете IDE, такую как IntelliJ IDEA или Eclipse, убедитесь, что проект настроен правильно:&#10;   - Корневой каталог исходного кода должен быть установлен на `src/main/java`.&#10;   - Каталог вывода должен быть настроен правильно (например, `out` или `target/classes`).&#10;&#10;7. **Инструменты сборки:**&#10;   Если вы используете инструмент сборки, такой как Maven или Gradle, убедитесь, что конфигурация сборки правильная. Для Maven файл `pom.xml` должен быть настроен правильно, а для Gradle файл `build.gradle` должен быть настроен правильно.&#10;&#10;Вот пример того, как вы можете настроить и запустить ваше приложение с использованием Maven:&#10;&#10;**pom.xml:**&#10;```xml&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&#10;         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;    &lt;groupId&gt;ru.otus.java&lt;/groupId&gt;&#10;    &lt;artifactId&gt;basic&lt;/artifactId&gt;&#10;    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;    &lt;build&gt;&#10;        &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;&#10;        &lt;resources&gt;&#10;            &lt;resource&gt;&#10;                &lt;directory&gt;src/main/resources&lt;/directory&gt;&#10;            &lt;/resource&gt;&#10;        &lt;/resources&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.8.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;17&lt;/source&gt;&#10;                    &lt;target&gt;17&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;&#10;&lt;/project&gt;&#10;```&#10;&#10;**Запуск приложения с Maven:**&#10;```sh&#10;mvn clean compile exec:java -Dexec.mainClass=&quot;ru.otus.java.basic.Application&quot;&#10;```&#10;&#10;Следуя этим шагам, вы сможете устранить ошибку `ClassNotFoundException` и успешно запустить ваш класс `Application`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1722069556907" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="edf59f">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
+                </list>
+              </option>
+              <option name="id" value="edf59f" />
+              <option name="initiateTms" value="1722069376651" />
+              <option name="request" value=" Error: Could not find or load main class ru.otus.java.basic.Application&#10;Caused by: java.lang.ClassNotFoundException: ru.otus.java.basic.Application" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="The error `Could not find or load main class ru.otus.java.basic.Application` typically indicates that the Java runtime cannot locate the `Application` class in the specified package. This can be due to several reasons, such as incorrect classpath settings, incorrect package declarations, or issues with the compiled classes.&#10;&#10;Here are some steps to troubleshoot and resolve this issue:&#10;&#10;1. **Check the Package Declaration:**&#10;   Ensure that the package declaration at the top of your `Application.java` file matches the directory structure. It should be:&#10;   ```java&#10;   package ru.otus.java.basic;&#10;   ```&#10;&#10;2. **Check the Directory Structure:**&#10;   Ensure that your directory structure matches the package declaration. The `Application.java` file should be located in:&#10;   ```&#10;   src/main/java/ru/otus/java/basic/Application.java&#10;   ```&#10;&#10;3. **Compile the Classes:**&#10;   Ensure that all your Java files are compiled correctly. You can compile them using the `javac` command:&#10;   ```sh&#10;   javac -d out src/main/java/ru/otus/java/basic/*.java&#10;   ```&#10;   This command compiles all Java files in the `ru.otus.java.basic` package and places the compiled classes in the `out` directory.&#10;&#10;4. **Run the Application:**&#10;   Ensure that you are running the application with the correct classpath. You can run the `Application` class using the `java` command:&#10;   ```sh&#10;   java -cp out ru.otus.java.basic.Application&#10;   ```&#10;&#10;5. **Check for Compilation Errors:**&#10;   Ensure that there are no compilation errors in your code. Any compilation errors can prevent the class files from being generated.&#10;&#10;6. **IDE Configuration:**&#10;   If you are using an IDE like IntelliJ IDEA or Eclipse, ensure that the project is configured correctly:&#10;   - The source root should be set to `src/main/java`.&#10;   - The output directory should be set correctly (e.g., `out` or `target/classes`).&#10;&#10;7. **Build Tools:**&#10;   If you are using a build tool like Maven or Gradle, ensure that the build configuration is correct. For Maven, the `pom.xml` should be configured correctly, and for Gradle, the `build.gradle` should be set up properly.&#10;&#10;Here is an example of how you might configure and run your application using Maven:&#10;&#10;**pom.xml:**&#10;```xml&#10;&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;&#10;         xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;         xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;&#10;    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;&#10;    &lt;groupId&gt;ru.otus.java&lt;/groupId&gt;&#10;    &lt;artifactId&gt;basic&lt;/artifactId&gt;&#10;    &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;&#10;    &lt;build&gt;&#10;        &lt;sourceDirectory&gt;src/main/java&lt;/sourceDirectory&gt;&#10;        &lt;resources&gt;&#10;            &lt;resource&gt;&#10;                &lt;directory&gt;src/main/resources&lt;/directory&gt;&#10;            &lt;/resource&gt;&#10;        &lt;/resources&gt;&#10;        &lt;plugins&gt;&#10;            &lt;plugin&gt;&#10;                &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;&#10;                &lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;&#10;                &lt;version&gt;3.8.1&lt;/version&gt;&#10;                &lt;configuration&gt;&#10;                    &lt;source&gt;17&lt;/source&gt;&#10;                    &lt;target&gt;17&lt;/target&gt;&#10;                &lt;/configuration&gt;&#10;            &lt;/plugin&gt;&#10;        &lt;/plugins&gt;&#10;    &lt;/build&gt;&#10;&lt;/project&gt;&#10;```&#10;&#10;**Running the Application with Maven:**&#10;```sh&#10;mvn clean compile exec:java -Dexec.mainClass=&quot;ru.otus.java.basic.Application&quot;&#10;```&#10;&#10;By following these steps, you should be able to resolve the `ClassNotFoundException` and successfully run your `Application` class." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1722069387357" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
