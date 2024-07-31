@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca1fd5c-f476-418f-9be5-8200ce8c69c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/AnotherHelloWorldRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/CalculatorRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/DefaultInternalServerErrorRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/DefaultNotFoundRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/HelloWorldRequestProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/RequestProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/DefaultErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/app/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/app/ItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/CreateNewItemProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/GetAllItemsProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2jp0fWy7kGwsVLHZ4PXiNURjwy8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,7 +40,7 @@
     "Maven.otus-http-server [compile].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/xa86/IdeaProjects/learning-project/otus-http-server/src/main/java/ru/otus/java/basic",
+    "last_opened_file_path": "C:/Users/xa86/IdeaProjects/learning-project/otus-http-server/src/main/java/ru/otus/java/basic/processors",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,8 +51,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic" />
       <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic\processors" />
+      <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic\app" />
+      <recent name="C:\Users\xa86\IdeaProjects\learning-project\otus-http-server\src\main\java\ru\otus\java\basic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.otus.java.basic" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,6 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722068816109</updated>
       <workItem from="1722068817273" duration="1415000" />
+      <workItem from="1722410982312" duration="1744000" />
     </task>
     <servers />
   </component>
