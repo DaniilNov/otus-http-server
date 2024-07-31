@@ -18,7 +18,7 @@ public class RequestHandler implements Runnable {
             int n = socket.getInputStream().read(buffer);
             String rawRequest = new String(buffer, 0, n);
             HttpRequest request = new HttpRequest(rawRequest);
-            request.printInfo(true);
+            request.printInfo();
             dispatcher.execute(request, socket.getOutputStream());
         } catch (IOException e) {
             e.printStackTrace();
