@@ -27,4 +27,8 @@ public class ItemsRepository {
         items.add(item);
         return item;
     }
+
+    public boolean deleteItem(int id) {
+        return items.removeIf(item -> item.getId() == id);
+    }
 }

@@ -8,6 +8,7 @@ import ru.otus.java.basic.processors.CalculatorRequestProcessor;
 import ru.otus.java.basic.processors.CreateNewItemProcessor;
 import ru.otus.java.basic.processors.DefaultInternalServerErrorRequestProcessor;
 import ru.otus.java.basic.processors.DefaultNotFoundRequestProcessor;
+import ru.otus.java.basic.processors.DeleteItemProcessor;
 import ru.otus.java.basic.processors.GetAllItemsProcessor;
 import ru.otus.java.basic.processors.HelloWorldRequestProcessor;
 import ru.otus.java.basic.processors.RequestProcessor;
@@ -34,6 +35,7 @@ public class Dispatcher {
         this.processors.put("GET /calculator", new CalculatorRequestProcessor());
         this.processors.put("GET /items", new GetAllItemsProcessor(itemsRepository));
         this.processors.put("POST /items", new CreateNewItemProcessor(itemsRepository));
+        this.processors.put("DELETE /items", new DeleteItemProcessor(itemsRepository));
 
         this.defaultNotFoundRequestProcessor = new DefaultNotFoundRequestProcessor();
         this.defaultInternalServerErrorProcessor = new DefaultInternalServerErrorRequestProcessor();
