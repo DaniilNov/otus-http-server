@@ -57,10 +57,8 @@ public class HttpRequest {
         String[] lines = rawRequest.split("\r\n");
         int i = 1;
         while (i < lines.length && !lines[i].isEmpty()) {
-            String[] header = lines[i].split(": ");
-            if (header.length == 2) {
-                headers.put(header[0], header[1]);
-            }
+            String[] header = lines[i].split(": ", 2);
+            headers.put(header[0], header[1]);
             i++;
         }
 
@@ -84,6 +82,9 @@ public class HttpRequest {
         logger.info("method: {}", method);
         logger.info("body: {}", body);
         logger.info("headers: {}", headers);
+        if (logger.isDebugEnabled()) {
+            logger.debug("rawRequest: {}", rawRequest);
+        }
     }
 }
 

@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca1fd5c-f476-418f-9be5-8200ce8c69c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/DeleteItemProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/Dispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/RequestHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/app/ItemsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/app/ItemsRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +28,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2jp0fWy7kGwsVLHZ4PXiNURjwy8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,6 +50,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -109,7 +104,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722068816109</updated>
       <workItem from="1722068817273" duration="1415000" />
-      <workItem from="1722410982312" duration="6536000" />
+      <workItem from="1722410982312" duration="7004000" />
+      <workItem from="1723364099131" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="Homework twenty-four basic implementation">
       <option name="closed" value="true" />
@@ -119,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722412764717</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Homework twenty-four v1">
+      <option name="closed" value="true" />
+      <created>1722424582501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722424582501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework twenty-four v1">
+      <option name="closed" value="true" />
+      <created>1722424641596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722424641596</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework twenty-four basic implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework twenty-four basic implementation" />
+    <MESSAGE value="Homework twenty-four v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework twenty-four v1" />
   </component>
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
@@ -323,6 +336,32 @@
                   <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/CreateNewItemProcessor.java" />
                   <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/processors/AnotherHelloWorldRequestProcessor.java" />
                   <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/app/ItemsRepository.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="8363be">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" />
+                </list>
+              </option>
+              <option name="id" value="8363be" />
+              <option name="initiateTms" value="1723364412536" />
+              <option name="request" value=" В классе HttpRequest над строчкой String[] lines = rawRequest.split(&quot;\r\n&quot;);&#10;получил комментарий &#10;Лучше сделать String[] header = lines[i].split(&quot;: &quot;, 2); чтобы защититься от : в вельюс и от следующего ифа избавиться" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Да, это хороший совет. Использование метода `split` с ограничением на количество частей (`split(&quot;: &quot;, 2)`) позволяет избежать проблем, связанных с наличием символа `:` в значениях заголовков. Это также позволяет избавиться от дополнительной проверки длины массива.&#10;&#10;Давайте обновим ваш класс `HttpRequest` с учетом этого совета и добавим дополнительные улучшения для обработки ошибок и логгирования.&#10;&#10;### Обновленный класс `HttpRequest`&#10;&#10;```java&#10;package ru.otus.java.basic;&#10;&#10;import org.apache.logging.log4j.LogManager;&#10;import org.apache.logging.log4j.Logger;&#10;&#10;import java.util.HashMap;&#10;import java.util.Map;&#10;&#10;public class HttpRequest {&#10;    private static final Logger logger = LogManager.getLogger(HttpRequest.class);&#10;&#10;    private String rawRequest;&#10;    private String uri;&#10;    private HttpMethod method;&#10;    private Map&lt;String, String&gt; parameters;&#10;    private Map&lt;String, String&gt; headers;&#10;    private String body;&#10;&#10;    public HttpRequest(String rawRequest) {&#10;        this.rawRequest = rawRequest;&#10;        this.parameters = new HashMap&lt;&gt;();&#10;        this.headers = new HashMap&lt;&gt;();&#10;        this.parse();&#10;    }&#10;&#10;    public String getRoutingKey() {&#10;        return method + &quot; &quot; + uri;&#10;    }&#10;&#10;    public String getUri() {&#10;        return uri;&#10;    }&#10;&#10;    public String getBody() {&#10;        return body;&#10;    }&#10;&#10;    public Map&lt;String, String&gt; getHeaders() {&#10;        return headers;&#10;    }&#10;&#10;    private void parse() {&#10;        try {&#10;            int startIndex = rawRequest.indexOf(' ');&#10;            int endIndex = rawRequest.indexOf(' ', startIndex + 1);&#10;            this.uri = rawRequest.substring(startIndex + 1, endIndex);&#10;            this.method = HttpMethod.valueOf(rawRequest.substring(0, startIndex));&#10;&#10;            // Parse parameters from URI&#10;            if (uri.contains(&quot;?&quot;)) {&#10;                String[] elements = uri.split(&quot;\\?&quot;);&#10;                this.uri = elements[0];&#10;                String[] keysValues = elements[1].split(&quot;&amp;&quot;);&#10;                for (String o : keysValues) {&#10;                    String[] keyValue = o.split(&quot;=&quot;);&#10;                    if (keyValue.length == 2) {&#10;                        this.parameters.put(keyValue[0], keyValue[1]);&#10;                    } else {&#10;                        logger.warn(&quot;Invalid parameter format: {}&quot;, o);&#10;                    }&#10;                }&#10;            }&#10;&#10;            // Parse headers&#10;            String[] lines = rawRequest.split(&quot;\r\n&quot;);&#10;            int i = 1;&#10;            while (i &lt; lines.length &amp;&amp; !lines[i].isEmpty()) {&#10;                String[] header = lines[i].split(&quot;: &quot;, 2);&#10;                headers.put(header[0], header[1]);&#10;                i++;&#10;            }&#10;&#10;            // Parse body if method is POST&#10;            if (method == HttpMethod.POST) {&#10;                int bodyIndex = rawRequest.indexOf(&quot;\r\n\r\n&quot;) + 4;&#10;                if (bodyIndex &lt; rawRequest.length()) {&#10;                    this.body = rawRequest.substring(bodyIndex);&#10;                }&#10;            }&#10;        } catch (Exception e) {&#10;            logger.error(&quot;Error parsing HTTP request: {}&quot;, rawRequest, e);&#10;        }&#10;    }&#10;&#10;    public boolean containsParameter(String key) {&#10;        return parameters.containsKey(key);&#10;    }&#10;&#10;    public String getParameter(String key) {&#10;        return parameters.get(key);&#10;    }&#10;&#10;    public void printInfo() {&#10;        logger.info(&quot;uri: {}&quot;, uri);&#10;        logger.info(&quot;method: {}&quot;, method);&#10;        logger.info(&quot;body: {}&quot;, body);&#10;        logger.info(&quot;headers: {}&quot;, headers);&#10;        logger.info(&quot;parameters: {}&quot;, parameters);&#10;    }&#10;}&#10;```&#10;&#10;### Обновленный `DeleteItemProcessor` с дополнительным логгированием&#10;&#10;```java&#10;package ru.otus.java.basic.processors;&#10;&#10;import org.apache.logging.log4j.LogManager;&#10;import org.apache.logging.log4j.Logger;&#10;import ru.otus.java.basic.HttpRequest;&#10;import ru.otus.java.basic.RequestProcessor;&#10;import ru.otus.java.basic.app.ItemsRepository;&#10;&#10;import java.io.IOException;&#10;import java.io.OutputStream;&#10;import java.nio.charset.StandardCharsets;&#10;&#10;public class DeleteItemProcessor implements RequestProcessor {&#10;    private static final Logger logger = LogManager.getLogger(DeleteItemProcessor.class);&#10;    private ItemsRepository itemsRepository;&#10;&#10;    public DeleteItemProcessor(ItemsRepository itemsRepository) {&#10;        this.itemsRepository = itemsRepository;&#10;    }&#10;&#10;    @Override&#10;    public void execute(HttpRequest request, OutputStream out) throws IOException {&#10;        logger.info(&quot;Processing DELETE request for URI: {}&quot;, request.getUri());&#10;        String idParam = request.getParameter(&quot;id&quot;);&#10;        if (idParam == null) {&#10;            String response = &quot;HTTP/1.1 400 Bad Request\r\n\r\nMissing 'id' parameter&quot;;&#10;            out.write(response.getBytes(StandardCharsets.UTF_8));&#10;            logger.warn(&quot;Missing 'id' parameter in request&quot;);&#10;            return;&#10;        }&#10;&#10;        try {&#10;            int id = Integer.parseInt(idParam);&#10;            boolean deleted = itemsRepository.deleteItem(id);&#10;            if (deleted) {&#10;                String response = &quot;HTTP/1.1 200 OK\r\n\r\nItem deleted successfully&quot;;&#10;                out.write(response.getBytes(StandardCharsets.UTF_8));&#10;                logger.info(&quot;Item with id {} deleted successfully&quot;, id);&#10;            } else {&#10;                String response = &quot;HTTP/1.1 404 Not Found\r\n\r\nItem not found&quot;;&#10;                out.write(response.getBytes(StandardCharsets.UTF_8));&#10;                logger.warn(&quot;Item with id {} not found&quot;, id);&#10;            }&#10;        } catch (NumberFormatException e) {&#10;            String response = &quot;HTTP/1.1 400 Bad Request\r\n\r\nInvalid 'id' parameter&quot;;&#10;            out.write(response.getBytes(StandardCharsets.UTF_8));&#10;            logger.error(&quot;Invalid 'id' parameter: {}&quot;, idParam, e);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;### Обновленный `Dispatcher` с дополнительным логгированием&#10;&#10;```java&#10;package ru.otus.java.basic;&#10;&#10;import com.google.gson.Gson;&#10;import ru.otus.java.basic.app.ItemsRepository;&#10;import ru.otus.java.basic.processors.*;&#10;&#10;import java.io.IOException;&#10;import java.io.OutputStream;&#10;import java.nio.charset.StandardCharsets;&#10;import java.util.HashMap;&#10;import java.util.Map;&#10;&#10;public class Dispatcher {&#10;    private static final Logger logger = LogManager.getLogger(Dispatcher.class);&#10;    private Map&lt;String, RequestProcessor&gt; processors;&#10;    private RequestProcessor defaultNotFoundRequestProcessor;&#10;    private RequestProcessor defaultInternalServerErrorProcessor;&#10;&#10;    private ItemsRepository itemsRepository;&#10;&#10;    public Dispatcher() {&#10;        this.itemsRepository = new ItemsRepository();&#10;&#10;        this.processors = new HashMap&lt;&gt;();&#10;        this.processors.put(&quot;GET /&quot;, new HelloWorldRequestProcessor());&#10;        this.processors.put(&quot;GET /another&quot;, new AnotherHelloWorldRequestProcessor());&#10;        this.processors.put(&quot;GET /calculator&quot;, new CalculatorRequestProcessor());&#10;        this.processors.put(&quot;GET /items&quot;, new GetAllItemsProcessor(itemsRepository));&#10;        this.processors.put(&quot;POST /items&quot;, new CreateNewItemProcessor(itemsRepository));&#10;        this.processors.put(&quot;DELETE /items&quot;, new DeleteItemProcessor(itemsRepository)); // Регистрация нового процессора&#10;&#10;        this.defaultNotFoundRequestProcessor = new DefaultNotFoundRequestProcessor();&#10;        this.defaultInternalServerErrorProcessor = new DefaultInternalServerErrorRequestProcessor();&#10;    }&#10;&#10;    public void execute(HttpRequest request, OutputStream out) throws IOException {&#10;        try {&#10;            logger.info(&quot;Received request: {}&quot;, request.getRoutingKey());&#10;            if (!processors.containsKey(request.getRoutingKey())) {&#10;                logger.warn(&quot;No processor found for request: {}&quot;, request.getRoutingKey());&#10;                defaultNotFoundRequestProcessor.execute(request, out);&#10;                return;&#10;            }&#10;            processors.get(request.getRoutingKey()).execute(request, out);&#10;        } catch (BadRequestException e) {&#10;            logger.error(&quot;Bad request: {}&quot;, e.getMessage(), e);&#10;            DefaultErrorDto defaultErrorDto = new DefaultErrorDto(&quot;CLIENT_DEFAULT_ERROR&quot;, e.getMessage());&#10;            String jsonError = new Gson().toJson(defaultErrorDto);&#10;            String response = &quot;&quot; +&#10;                    &quot;HTTP/1.1 400 Bad Request\r\n&quot; +&#10;                    &quot;Content-Type: application/json\r\n&quot; +&#10;                    &quot;\r\n&quot; +&#10;                    jsonError;&#10;            out.write(response.getBytes(StandardCharsets.UTF_8));&#10;        } catch (Exception e) {&#10;            logger.error(&quot;Internal server error: {}&quot;, e.getMessage(), e);&#10;            defaultInternalServerErrorProcessor.execute(request, out);&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;### Итог&#10;&#10;Теперь ваш класс `HttpRequest` использует метод `split(&quot;: &quot;, 2)` для корректного парсинга заголовков, что позволяет избежать проблем с наличием символа `:` в значениях заголовков. Мы также добавили дополнительное логгирование для лучшей диагностики и обработки ошибок. Эти изменения должны помочь вам лучше понять, что происходит в системе и почему может возникать ошибка &quot;socket hang up&quot;." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1723364455202" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpMethod.java" />
+                  <option value="$PROJECT_DIR$/src/main/java/ru/otus/java/basic/HttpRequest.java" />
                 </list>
               </option>
             </ChatHistoryModel>
